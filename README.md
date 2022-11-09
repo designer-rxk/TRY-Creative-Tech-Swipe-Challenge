@@ -10,6 +10,7 @@
 - AppResponsive.js is not pixel perfect, but it is responsive from 375 to 2560px width.
 - It is based on the provided Figma Design.
 - It was made to showcase my ability to provide media queries.
+### You can view both by editing the index.js file line #9, by changing the component.
 
 ## To run
 * Install dependencies by opening the terminal and typing 
