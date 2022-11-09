@@ -10,6 +10,7 @@
 - AppResponsive.js is not pixel perfect, but it is responsive from 375 to 2560px width.
 - It is based on the provided Figma Design.
 - It was made to showcase my ability to provide media queries.
+## Important
 ### You can view both by editing the index.js file on line #9, by changing the component from App to AppResponsive.
 ### On the mobile version, you can use the swipe gestures on the cards themself, like it is on Tinder.
 
