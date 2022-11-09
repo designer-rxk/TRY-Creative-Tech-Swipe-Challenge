@@ -11,6 +11,7 @@
 - It is based on the provided Figma Design.
 - It was made to showcase my ability to provide media queries.
 ### You can view both by editing the index.js file on line #9, by changing the component from App to AppResponsive.
+### On the mobile version, you can use the swipe gestures on the cards themself, like it is on Tinder.
 
 ## To run
 * Install dependencies by opening the terminal and typing 
