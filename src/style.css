@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+
+body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background: #0336FF;
+    font-family: Rubik, sans-serif;
+    position: relative;
+}
+.swipe-design{
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+    position: fixed;
+}
+.logo{
+    position: absolute;
+    width:16px;
+    height:63px;
+    left:75px;
+    top:63px;
+}
+.thumb-down{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 249px;
+    top: 500px;
+    z-index: 10;
+}
+.arrow-left{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 - 334px);
+    top: calc(50% - 24px/2);
+    z-index: 10;
+}
+.arrow-right{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: calc(50% - 24px/2 + 335px);
+    top: calc(50% - 24px/2);
+    z-index: 10;
+}
+.thumb-up{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 1167px;
+    top: 500px;
+    z-index: 10;
+}
+.card{
+    box-sizing: border-box;
+    position: absolute;
+    width: 182.64px;
+    height: 306.04px;
+    background: #0336FF;
+    border: 4.93617px solid #FFFFFF;
+    border-radius: 29.617px;
+}
+.card-text{
+    width: 115px;
+    height: 129px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+.card-text-wrapper{
+    width: 182.64px;
+    height: 306.04px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.none{
+    position:absolute;
+    top: calc(100vh + 182.64px);
+    transform: translate3d(25%, 100vh, 1000rem);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.75s;
+}
+.back{
+    position: absolute;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.25s;
+}
+.reset{
+    width: 182.64px;
+    height: 306.04px;
+    font-size: 36px;
+    position: absolute;
+    color:white;
+    text-decoration: none;
+    background: #0336FF;
+    border: 4.93617px solid #FFFFFF;
+    border-radius: 29.617px;
+    letter-spacing: 0.1em;
+}
+.reset-description{
+    font-size: 18px;
+    margin-top:36px;
+}
+@media only screen and (max-width: 376px){
+    .logo{
+        position: absolute;
+        width: 16px;
+        height: 63px;
+        left: 20px;
+        top: 20px;
+    }
+    .card{
+        position: absolute;
+        width: 125.6px;
+        height: 210.47px;
+        border: 3.39463px solid #FFFFFF;
+        border-radius: 20.3678px;
+        left: 143.4px;
+        top: 324.76px;
+    }
+    .arrow-left{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: calc(50% - 24px/2 - 103.5px);
+        top: calc(50% - 24px/2 - 2px);
+    }
+    .arrow-right{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: calc(50% - 24px/2 + 103.5px);
+        top: calc(50% - 24px/2);
+    }
+    .thumb-down{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 22px;
+        top: 400px;
+    }
+    .thumb-up{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 331px;
+        top: 400px;
+    }
+    .card-text-wrapper{
+        width: 125.6px;
+        height: 210.47px;
+        left: 172.97px;
+        top: 383.9px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24.7574px;
+        line-height: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .none{
+        position:absolute;
+        top: calc(100vh + 125.6px);
+        transition-timing-function: ease-in-out;
+        transition-duration: 0.5s;
+    }
+    .back{
+        position: absolute;
+        transition-duration: 0.5s;
+    }
+    .reset{
+        width: 125.6px;
+        height: 210.47px;
+        font-size: 36px;
+        position: absolute;
+        color:white;
+        text-decoration: none;
+        background: #0336FF;
+        border: 3.39463px solid #FFFFFF;
+        border-radius: 20.3678px;
+        letter-spacing: 0.1em;
+    }
+}
